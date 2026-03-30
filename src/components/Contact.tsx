@@ -8,13 +8,13 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Address",
-      content: "Om Apartment, Shop No. 2 & 3, Diva Shil Rd, near Parsik Bank, Diva, Maharashtra 400612, India",
+      content: "Crystal Plaza, Shop No. 8 & 9, Sapphire Avenue, Near First Bank, Bangalore, Karnataka 560001, India",
     },
     {
       icon: Phone,
       title: "Phone",
-      content: "+91 98677 97546",
-      link: "tel:+919867797546",
+      content: "+91 91234 56789",
+      link: "tel:+919123456789",
     },
     {
       icon: Clock,
@@ -93,7 +93,7 @@ const Contact = () => {
             <div className="mt-10">
               <Button variant="maroon" size="lg" asChild>
                 <a
-                  href="https://www.google.com/maps/dir/?api=1&destination=Kalpataru+Jewellers,+Om+Apartment,+Diva+Shil+Rd,+Diva,+Maharashtra+400612&destination_place_id=ChIJWbhEY_C_wjsRRU23RO0WHmQ"
+                  href="https://www.google.com/maps/dir/?api=1&destination=Stellar+Jewels,+Crystal+Plaza,+Sapphire+Avenue,+Bangalore,+Karnataka+560001"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -118,14 +118,14 @@ const Contact = () => {
             className="rounded-lg overflow-hidden shadow-elegant border border-border lg:col-span-1"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.123!2d73.0396753!3d19.1850121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bff06344b859%3A0x641d16ed46b74d45!2sKalpataru%20Jewellers%20-%20Jewellery%20Store%20In%20Diva!5e0!3m2!1sen!2sin!4v1706000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.123!2d77.6234567!3d12.9716198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1a0b0b0b0b0b%3A0x1234567890abcdef!2sStellar%20Jewels%20-%20Premium%20Jewelry%20In%20Bangalore!5e0!3m2!1sen!2sin!4v1706000000000!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: "400px" }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Kalpataru Jewellers Location"
+              title="Stellar Jewels Location"
               className="grayscale hover:grayscale-0 transition-all duration-500"
             />
           </motion.div>

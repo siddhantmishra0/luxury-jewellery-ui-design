@@ -6,7 +6,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
-import { supabase } from "@/integrations/supabase/client";
 import { z } from "zod";
 
 const contactSchema = z.object({
@@ -58,31 +57,6 @@ const ContactForm = () => {
 
     setIsSubmitting(true);
 
-    try {
-      const { error } = await supabase.from("contact_inquiries").insert({
-        name: result.data.name,
-        email: result.data.email,
-        phone: result.data.phone || null,
-        message: result.data.message,
-      });
-
-      if (error) throw error;
-
-      setIsSubmitted(true);
-      toast({
-        title: "Message sent!",
-        description: "We'll get back to you as soon as possible.",
-      });
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      toast({
-        title: "Something went wrong",
-        description: "Please try again or contact us directly.",
-        variant: "destructive",
-      });
-    } finally {
-      setIsSubmitting(false);
-    }
   };
 
   if (isSubmitted) {
@@ -160,7 +134,7 @@ const ContactForm = () => {
           type="tel"
           value={formData.phone}
           onChange={handleChange}
-          placeholder="+91 98765 43210"
+          placeholder="+91 XXXXXXXXXX"
           className={errors.phone ? "border-destructive" : ""}
           disabled={isSubmitting}
         />

@@ -49,14 +49,14 @@ const About = () => {
               A Legacy of <span className="text-gold">Trust & Excellence</span>
             </h2>
             <p className="font-sans text-cream/80 leading-relaxed mb-6">
-              Kalpataru Jewellers has been a trusted name in the jewelry industry for generations.
-              Located in the heart of Diva, we have been serving families with the finest gold,
+              Stellar Jewels has been a trusted name in the jewelry industry for generations.
+              Located in the heart of Bangalore, we have been serving families with the finest gold,
               diamond, and traditional jewelry pieces.
             </p>
             <p className="font-sans text-cream/80 leading-relaxed mb-8">
               Our commitment to quality, transparency, and customer satisfaction has made us
               a preferred choice for weddings, festivals, and special occasions. We take pride
-              in being "ठाण्याची जुनी आणि विश्वासू पेढी" - Thane's old and trusted jewelry store.
+              in being a timeless symbol of trust, elegance, and excellence.
             </p>
 
             {/* Stats */}

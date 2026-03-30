@@ -22,15 +22,15 @@ const Hero = () => {
         <div className="animate-fade-in">
           {/* Tagline */}
           <p className="text-gold-light font-sans text-sm md:text-base uppercase tracking-[0.3em] mb-4">
-            ठाण्याची जुनी आणि विश्वासू पेढी
+            Elegance Redefined
           </p>
 
           {/* Main Title */}
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold text-cream mb-2">
-            कल्पतरु
+            Stellar
           </h1>
           <h2 className="font-serif text-3xl md:text-5xl lg:text-6xl font-semibold text-gold mb-6">
-            Kalpataru Jewellers
+            Jewels
           </h2>
 
           {/* Decorative Line */}
@@ -65,7 +65,7 @@ const Hero = () => {
           <div className="bg-maroon-dark/80 backdrop-blur-sm border border-gold/30 rounded-lg p-4 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-cream/90 text-sm">
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-gold" />
-              <span>Diva, Maharashtra</span>
+              <span>Bangalore, Karnataka</span>
             </div>
             <div className="hidden md:block w-px h-4 bg-gold/30" />
             <div className="flex items-center gap-2">

@@ -20,10 +20,10 @@ const Header = () => {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
             <span className="font-serif text-2xl md:text-3xl font-bold text-gold">
-              कल्पतरु
+              ✨ Stellar
             </span>
             <span className="hidden sm:block font-serif text-lg text-cream/90">
-              Jewellers
+              Jewels
             </span>
           </a>
 
@@ -43,7 +43,7 @@ const Header = () => {
           {/* Contact Button */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:+919999999999"
+              href="tel:+919123456789"
               className="flex items-center gap-2 text-gold hover:text-gold-light transition-colors"
             >
               <Phone className="w-4 h-4" />
@@ -78,7 +78,7 @@ const Header = () => {
             ))}
             <div className="mt-4 pt-4 border-t border-gold/20 flex items-center gap-4">
               <MapPin className="w-4 h-4 text-gold" />
-              <span className="text-cream/70 text-sm">Diva, Maharashtra</span>
+              <span className="text-cream/70 text-sm">Bangalore, Karnataka</span>
             </div>
           </nav>
         )}

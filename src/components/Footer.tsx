@@ -11,14 +11,14 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <h3 className="font-serif text-3xl text-gold font-bold mb-2">
-              कल्पतरु Jewellers
+              💎 Stellar Jewels
             </h3>
             <p className="text-cream/60 text-sm mb-4">
-              ठाण्याची जुनी आणि विश्वासू पेढी
+              Timeless elegance, authentic craftsmanship
             </p>
             <p className="font-sans text-cream/70 text-sm leading-relaxed max-w-md">
               Crafting timeless elegance since generations. Your trusted destination for
-              hallmarked gold, diamond, and traditional jewelry in Diva, Maharashtra.
+              hallmarked gold, diamond, and traditional jewelry in Bangalore, Karnataka.
             </p>
           </div>
 
@@ -46,16 +46,16 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-gold mt-1 shrink-0" />
                 <p className="font-sans text-sm text-cream/70">
-                  Om Apartment, Shop No. 2 & 3, Diva Shil Rd, Diva, Maharashtra 400612
+                  Crystal Plaza, Shop No. 8 & 9, Sapphire Avenue, Bangalore, Karnataka 560001
                 </p>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-gold shrink-0" />
                 <a
-                  href="tel:+919867797546"
+                  href="tel:+919123456789"
                   className="font-sans text-sm text-cream/70 hover:text-gold transition-colors"
                 >
-                  +91 98677 97546
+                  +91 91234 56789
                 </a>
               </div>
             </div>
@@ -68,10 +68,10 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="font-sans text-xs text-cream/50 text-center md:text-left">
-              © {currentYear} Kalpataru Jewellers. All rights reserved.
+              © {currentYear} Stellar Jewels. All rights reserved.
             </p>
             <p className="font-sans text-xs text-cream/50 flex items-center gap-1">
-              Made with <Heart className="w-3 h-3 text-gold fill-gold" /> in Diva
+              Made with <Heart className="w-3 h-3 text-gold fill-gold" /> in Bangalore
             </p>
           </div>
         </div>

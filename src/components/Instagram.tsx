@@ -12,7 +12,7 @@ const instagramPosts = [
   { id: 6, image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=400&fit=crop", alt: "Wedding jewelry" },
 ];
 
-const INSTAGRAM_URL = "https://www.instagram.com/kalpatarujewellersdiva/";
+const INSTAGRAM_URL = "https://www.instagram.com/";
 
 const Instagram = () => {
   return (
@@ -35,7 +35,7 @@ const Instagram = () => {
           <div className="flex items-center justify-center gap-3 mb-4">
             <InstagramIcon className="w-8 h-8 text-gold" />
             <p className="text-gold font-sans text-sm uppercase tracking-[0.2em]">
-              @kalpatarujewellersdiva
+              Instagram
             </p>
           </div>
           <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-cream mb-4">
@@ -63,6 +63,8 @@ const Instagram = () => {
               <img
                 src={post.image}
                 alt={post.alt}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-maroon-dark/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
@@ -87,7 +89,7 @@ const Instagram = () => {
               rel="noopener noreferrer"
             >
               <InstagramIcon className="w-5 h-5" />
-              Follow @kalpatarujewellersdiva
+              Visit Instagram
               <ExternalLink className="w-4 h-4 ml-1" />
             </a>
           </Button>

@@ -1,11 +1,11 @@
-import storeInterior1 from "@/assets/store-interior-1.png";
-import storeInterior2 from "@/assets/store-interior-2.png";
-import storeFront from "@/assets/store-front.png";
+import storeInterior1 from "@/assets/AmPmj.jpg";
+import storeInterior2 from "@/assets/VPsGp.jpg";
+import storeFront from "@/assets/nr1Tp.jpg";
 import { motion } from "framer-motion";
 
 const Gallery = () => {
   const images = [
-    { src: storeFront, alt: "Kalpataru Jewellers Store Front", span: "md:col-span-2" },
+    { src: storeFront, alt: "Stellar Jewels Store Front", span: "md:col-span-2" },
     { src: storeInterior1, alt: "Gold Jewelry Display", span: "" },
     { src: storeInterior2, alt: "Jewelry Collection Display", span: "md:col-span-3" },
   ];
@@ -48,6 +48,8 @@ const Gallery = () => {
               <img
                 src={image.src}
                 alt={image.alt}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-64 md:h-80 object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-maroon-dark/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
